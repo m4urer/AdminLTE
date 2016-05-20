@@ -2,6 +2,24 @@
  * General: Miscellaneous
  * ----------------------
  */
+//override colors for bg
+@bg-light-blue:lighten(#3c8dbc, 50%);
+@bg-red: lighten(#dd4b39, 50%);
+@bg-green: lighten(#00a65a, 50%);
+@bg-aqua: lighten(#00c0ef, 50%);
+@bg-yellow: lighten(#f39c12, 50%);
+@bg-blue: lighten(#0073b7, 50%);
+@bg-navy: lighten(#001F3F, 50%);
+@bg-teal: lighten(#39CCCC, 50%);
+@bg-olive: lighten(#3D9970, 50%);
+@bg-lime: lighten(#01FF70, 50%);
+@bg-orange: lighten(#FF851B, 50%);
+@bg-fuchsia: lighten(#F012BE, 50%);
+@bg-purple: lighten(#605ca8, 50%);
+@bg-maroon: lighten(#D81B60, 50%);
+@bg-black: lighten(#111, 50%);
+@bg-gray: lighten(#d2d6de, 50%);
+
 // 10px padding and margins
 .pad {
   padding: 10px;
@@ -78,12 +96,12 @@
 .bg-purple-active,
 .bg-maroon-active,
 .bg-black-active {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .bg-gray {
   color: #000;
-  background-color: @gray !important;
+  background-color: @bg-gray !important;
 }
 
 .bg-gray-light {
@@ -91,129 +109,129 @@
 }
 
 .bg-black {
-  background-color: @black !important;
+  background-color: @bg-black !important;
 }
 
 .bg-red {
-  background-color: @red !important;
+  background-color: @bg-red !important;
 }
 
 .bg-yellow {
-  background-color: @yellow !important;
+  background-color: @bg-yellow !important;
 }
 
 .bg-aqua {
-  background-color: @aqua !important;
+  background-color: @bg-aqua !important;
 }
 
 .bg-blue {
-  background-color: @blue !important;
+  background-color: @bg-blue !important;
 }
 
 .bg-light-blue {
-  background-color: @light-blue !important;
+  background-color: @bg-light-blue !important;
 }
 
 .bg-green {
-  background-color: @green !important;
+  background-color: @bg-green !important;
 }
 
 .bg-navy {
-  background-color: @navy !important;
+  background-color: @bg-navy !important;
 }
 
 .bg-teal {
-  background-color: @teal !important;
+  background-color: @bg-teal !important;
 }
 
 .bg-olive {
-  background-color: @olive !important;
+  background-color: @bg-olive !important;
 }
 
 .bg-lime {
-  background-color: @lime !important;
+  background-color: @bg-lime !important;
 }
 
 .bg-orange {
-  background-color: @orange !important;
+  background-color: @bg-orange !important;
 }
 
 .bg-fuchsia {
-  background-color: @fuchsia !important;
+  background-color: @bg-fuchsia !important;
 }
 
 .bg-purple {
-  background-color: @purple !important;
+  background-color: @bg-purple !important;
 }
 
 .bg-maroon {
-  background-color: @maroon !important;
+  background-color: @bg-maroon !important;
 }
 
 //Set of Active Background Colors
 .bg-gray-active {
   color: #000;
-  background-color: darken(@gray, 10%) !important;
+  background-color: darken(@bg-gray, 10%) !important;
 }
 
 .bg-black-active {
-  background-color: darken(@black, 10%) !important;
+  background-color: darken(@bg-black, 10%) !important;
 }
 
 .bg-red-active {
-  background-color: darken(@red , 6%) !important;
+  background-color: darken(@bg-red , 6%) !important;
 }
 
 .bg-yellow-active {
-  background-color: darken(@yellow , 6%) !important;
+  background-color: darken(@bg-yellow , 6%) !important;
 }
 
 .bg-aqua-active {
-  background-color: darken(@aqua , 6%) !important;
+  background-color: darken(@bg-aqua , 6%) !important;
 }
 
 .bg-blue-active {
-  background-color: darken(@blue , 10%) !important;
+  background-color: darken(@bg-blue , 10%) !important;
 }
 
 .bg-light-blue-active {
-  background-color: darken(@light-blue , 6%) !important;
+  background-color: darken(@bg-light-blue , 6%) !important;
 }
 
 .bg-green-active {
-  background-color: darken(@green , 5%) !important;
+  background-color: darken(@bg-green , 5%) !important;
 }
 
 .bg-navy-active {
-  background-color: darken(@navy , 2%) !important;
+  background-color: darken(@bg-navy , 2%) !important;
 }
 
 .bg-teal-active {
-  background-color: darken(@teal , 5%) !important;
+  background-color: darken(@bg-teal , 5%) !important;
 }
 
 .bg-olive-active {
-  background-color: darken(@olive , 5%) !important;
+  background-color: darken(@bg-olive , 5%) !important;
 }
 
 .bg-lime-active {
-  background-color: darken(@lime , 5%) !important;
+  background-color: darken(@bg-lime , 5%) !important;
 }
 
 .bg-orange-active {
-  background-color: darken(@orange , 5%) !important;
+  background-color: darken(@bg-orange , 5%) !important;
 }
 
 .bg-fuchsia-active {
-  background-color: darken(@fuchsia , 5%) !important;
+  background-color: darken(@bg-fuchsia , 5%) !important;
 }
 
 .bg-purple-active {
-  background-color: darken(@purple , 5%) !important;
+  background-color: darken(@bg-purple , 5%) !important;
 }
 
 .bg-maroon-active {
-  background-color: darken(@maroon , 3%) !important;
+  background-color: darken(@bg-maroon , 3%) !important;
 }
 
 //Disabled!
@@ -223,74 +241,74 @@
 
 // Text colors
 .text-red {
-  color: @red !important;
+  color: @bg-red !important;
 }
 
 .text-yellow {
-  color: @yellow !important;
+  color: @bg-yellow !important;
 }
 
 .text-aqua {
-  color: @aqua !important;
+  color: @bg-aqua !important;
 }
 
 .text-blue {
-  color: @blue !important;
+  color: @bg-blue !important;
 }
 
 .text-black {
-  color: @black !important;
+  color: @bg-black !important;
 }
 
 .text-light-blue {
-  color: @light-blue !important;
+  color: @bg-light-blue !important;
 }
 
 .text-green {
-  color: @green !important;
+  color: @bg-green !important;
 }
 
 .text-gray {
-  color: @gray !important;
+  color: @bg-gray !important;
 }
 
 .text-navy {
-  color: @navy !important;
+  color: @bg-navy !important;
 }
 
 .text-teal {
-  color: @teal !important;
+  color: @bg-teal !important;
 }
 
 .text-olive {
-  color: @olive !important;
+  color: @bg-olive !important;
 }
 
 .text-lime {
-  color: @lime !important;
+  color: @bg-lime !important;
 }
 
 .text-orange {
-  color: @orange !important;
+  color: @bg-orange !important;
 }
 
 .text-fuchsia {
-  color: @fuchsia !important;
+  color: @bg-fuchsia !important;
 }
 
 .text-purple {
-  color: @purple !important;
+  color: @bg-purple !important;
 }
 
 .text-maroon {
-  color: @maroon !important;
+  color: @bg-maroon !important;
 }
 
 .link-muted {
-  color: darken(@gray, 30%);
+  color: darken(@bg-gray, 30%);
   &:hover,
   &:focus {
-    color: darken(@gray, 40%);
+    color: darken(@bg-gray, 40%);
   }
 }
 
@@ -368,52 +386,52 @@
 
 // Gradient Background colors
 .bg-teal-gradient {
-  .gradient(@teal; @teal; lighten(@teal, 16%)) !important;
+  .gradient(@bg-teal; @bg-teal; lighten(@bg-teal, 16%)) !important;
   color: #fff;
 }
 
 .bg-light-blue-gradient {
-  .gradient(@light-blue; @light-blue; lighten(@light-blue, 12%)) !important;
+  .gradient(@bg-light-blue; @bg-light-blue; lighten(@bg-light-blue, 12%)) !important;
   color: #fff;
 }
 
 .bg-blue-gradient {
-  .gradient(@blue; @blue; lighten(@blue, 7%)) !important;
+  .gradient(@bg-blue; @bg-blue; lighten(@bg-blue, 7%)) !important;
   color: #fff;
 }
 
 .bg-aqua-gradient {
-  .gradient(@aqua; @aqua; lighten(@aqua, 7%)) !important;
+  .gradient(@bg-aqua; @bg-aqua; lighten(@bg-aqua, 7%)) !important;
   color: #fff;
 }
 
 .bg-yellow-gradient {
-  .gradient(@yellow; @yellow; lighten(@yellow, 16%)) !important;
+  .gradient(@bg-yellow; @bg-yellow; lighten(@bg-yellow, 16%)) !important;
   color: #fff;
 }
 
 .bg-purple-gradient {
-  .gradient(@purple; @purple; lighten(@purple, 16%)) !important;
+  .gradient(@bg-purple; @bg-purple; lighten(@bg-purple, 16%)) !important;
   color: #fff;
 }
 
 .bg-green-gradient {
-  .gradient(@green; @green; lighten(@green, 7%)) !important;
+  .gradient(@bg-green; @bg-green; lighten(@bg-green, 7%)) !important;
   color: #fff;
 }
 
 .bg-red-gradient {
-  .gradient(@red; @red; lighten(@red, 10%)) !important;
+  .gradient(@bg-red; @bg-red; lighten(@bg-red, 10%)) !important;
   color: #fff;
 }
 
 .bg-black-gradient {
-  .gradient(@black; @black; lighten(@black, 10%)) !important;
+  .gradient(@bg-black; @bg-black; lighten(@bg-black, 10%)) !important;
   color: #fff;
 }
 
 .bg-maroon-gradient {
-  .gradient(@maroon; @maroon; lighten(@maroon, 10%)) !important;
+  .gradient(@bg-maroon; @bg-maroon; lighten(@bg-maroon, 10%)) !important;
   color: #fff;
 }
 
@@ -533,12 +551,12 @@
 
 // Image bordered
 .img-bordered {
-  border: 3px solid @gray;
+  border: 3px solid @bg-gray;
   padding: 3px;
 }
 
 .img-bordered-sm {
-  border: 2px solid @gray;
+  border: 2px solid @bg-gray;
   padding: 2px;
 }
 
